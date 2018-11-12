@@ -4,18 +4,10 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Programador programador1 = new Programador("Dergachi","PHP");
-        Programador programador2 = new Programador("Dergachi", "Java");
-        Analista analista1 = new Analista("Dergachi", "Arquitectura de software");
+        Profesor profesor1 = new Profesor("Pedro", "Gijon Ordoñez", 30, "632251478", "Lengua");
+        Profesor profesor2 = new Profesor("Juan", "Contreras Prueba", 35, "638321478", "Matemáticas");
+        Profesor profesor3 = new Profesor("Gonzalo", "Perez Jimenez", 40, "654239875", "Inglés");
 
-        programador1.setSueldo(25.5);
 
-        programador2.setSueldo(37.6);
-
-        analista1.setSueldo(55);
-
-        System.out.println(programador1);
-        System.out.println(programador2);
-        System.out.println(analista1);
     }
 }
