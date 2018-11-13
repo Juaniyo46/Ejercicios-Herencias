@@ -18,4 +18,15 @@ public class Profesor extends PersonaAbs {
     }
 
 
+
+    @Override
+    public String toString() {
+        return "Profesor{" +
+                "speciality='" + speciality + '\'' +
+                ", name='" + name + '\'' +
+                ", surnames='" + surnames + '\'' +
+                ", age=" + age +
+                ", telephone='" + telephone + '\'' +
+                '}';
+    }
 }
