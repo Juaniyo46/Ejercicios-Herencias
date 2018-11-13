@@ -27,8 +27,8 @@ public class Mago extends Personaje {
     }
 
     public String encantar () {
-        energia = this.energia - 2;
-        return "Te queda " + energia + " de energía, y tu poder es " + this.poder;
+        this.energia -= 2;
+        return "Te queda " + this.energia + " de energía, y tu poder es " + this.poder;
     }
 
 
